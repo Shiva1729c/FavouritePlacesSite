@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*To use the font families, their style sheets should be imported into the CSS file */
 
+.bg-container{
+background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/ocean.jpg");
+  background-size: cover;
+  /* Using full viewport height and width to fit into different sized screens */
+  height: 100vh;
+  /* width: 100vw;  not required */
+}
+.tourism-card{
+    /* background-color: lightblue; */
+    /* background-image: url("https://images.unsplash.com/photo-1530789253388-582c481c54b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    text-align: center;
+    background-color: white;
+    /*to manually add height and width to html element
+    height: 500px;
+    width: 400px;*/
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+    
+}
+.main-heading{
+    font-family: "Bree serif";
+    font-size: 36px;
+    color: blue;
+    font-weight: 100;
+    font-style: normal;
+    /* text-decoration: underline; */
+}
+
+.button{
+  height: 38px;
+  width: 130px;
+  background-color: #25b1cc;
+  color: white;
+  border-radius: 25px;
+  border-width: 0px;
+  
+}
+/* Favourite places CSS starts here */
 .favourite-places-bg-container{
     background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/towerbg.png");
     background-size: cover;
@@ -20,6 +60,7 @@
     border-radius: 5px;
       /* border: 2px solid rgb(0, 8, 255); */
       margin: 15px;
+       cursor: pointer;
 }
 
 .favourite-places-text-container{
@@ -43,8 +84,8 @@
     height: 100px;
     width: 100px;
 }
-
-/* Detailed view section CSS */
+/* Favourite places CSS Ends here */
+/* Detailed view section CSS  Starts here*/
 .detailed-view-bg-container{
     background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/seabg.png");
     height: 100vh;
@@ -56,6 +97,7 @@
     background-color: white;
     /* border: 1px solid red; */
     margin: 20px;
+   
 }
 .detailed-view-heading{
     font-family: "Roboto";
@@ -80,3 +122,4 @@
     font-size: 13px;
     color:#6c6b70; 
 }
+/* Detailed view section CSS  Ends here*/
